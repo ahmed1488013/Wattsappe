@@ -1,0 +1,148 @@
+.wahtssape{
+    background-color: #a9a9a94a;
+}
+.continer{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.mychat{
+    position: relative;
+    border-top-left-radius: 19px;
+    top: 35px;
+    padding: 10px;
+    width: 30%;
+    background-color: white;
+    border-right: 1px solid darkgrey;
+}
+.header{
+    margin-bottom: 10px;
+}
+.header h1{
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.header h1::before{
+    position: absolute;
+    content: "";
+    width: 11.5px;
+    height: 2px;
+    left: 92%;
+    background-color: black;
+}
+.header h1::after{
+    top: 15px;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    left: 89%;
+    background-color: black;
+}
+.header input{
+    border-bottom: 3px solid green;
+    height: 30px;
+    width: 100%;
+}
+.body{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+    transition: .5s;
+    cursor: pointer;
+}
+.body:hover{
+    background-color: rgb(169, 169, 169);
+}
+.body .imag{
+    display: flex;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.body .text {
+    width: 93%;
+}
+.body .text .explain{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #333;
+}
+.body .text .span{
+    font-size: 10px;
+    color: #CCC;
+}
+.logo{
+    text-align: center;
+    width: 253px;
+    transform: translate(50%, 25%);
+}
+.logo h2{
+    font-size: 24px;
+}
+.logo p{
+    font-size: 13px;
+    color: #CCC;
+}
+.thechate{
+    top: 35px;
+    width: 70%;
+    position: relative;
+    display: none;
+}
+.thechate .header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+}
+.thechate .header .text span{
+    font-size: 10px;
+    color: #CCC;
+}
+.thechate #jschat{
+    background-color: darkgray;
+    position:relative ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+}
+
+ #jschat p{
+    text-align: end;
+    background-color: rgb(126 236 126 / 55%);
+    width: fit-content;
+    right: -189px;
+    right: -58%;
+    /* position: absolute; */
+    padding: 10px;
+    display: block;
+    font-size: 24px;
+    /* bottom: 50px; */
+ }
+.thechate .sender{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+}
+.thechate .sender input{
+    border: none;
+    width: 100%;
+    height: 90%;
+}
+.thechate .sender button{
+    height: 25px;
+}
